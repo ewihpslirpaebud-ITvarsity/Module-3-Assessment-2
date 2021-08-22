@@ -1,0 +1,348 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+/*=========HEADER============*/
+
+.header{
+    text-align: center; 
+   
+}
+.header img{
+    width: 700px;
+    margin-top: 40px;
+    margin-right: 30px;
+    
+ } 
+
+.header-01{
+    background-color:rgb(238, 225, 225);
+    width: 100%;
+    height: 180px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+.header-01 i{
+    float: left;
+    padding: 65px 0px 0px 17px;
+    color: rgb(17, 9, 9);
+    font-size: 40px; 
+}
+.header-01 img{
+   width: 400px;
+   padding-right: 70px;
+} 
+
+
+.header-02{
+    background-color:rgb(238, 225, 225);
+    width: 100%;
+    height: 180px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+.header-02 i{
+    float: left;
+    padding: 65px 0px 0px 17px;
+    color: rgb(17, 9, 9);
+    font-size: 40px; 
+}
+.header-02 img{
+   width: 400px;
+   padding-right: 70px;
+}
+
+.header-03{
+    background-color:rgb(238, 225, 225);
+    width: 100%;
+    height: 180px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+.header-03 i{
+    float: left;
+    padding: 65px 0px 0px 17px;
+    color: rgb(17, 9, 9);
+    font-size: 40px; 
+}
+.header-03 img{
+   width: 400px;
+   padding-right: 70px;
+}
+
+.header-04{
+    background-color:rgb(238, 225, 225);
+    width: 100%;
+    height: 180px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+.header-04 i{
+    float: left;
+    padding: 65px 0px 0px 17px;
+    color: rgb(17, 9, 9);
+    font-size: 40px; 
+}
+.header-04 img{
+   width: 400px;
+   padding-right: 70px;
+}
+/*=========HOME PAGE MENU============*/
+.body-home{
+    background-image: url('images/background-home.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body-meals{
+    background-image: url('images/meals-bg.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body-starters{
+    background-image: url('images/starters-bg2.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body-drinks{
+    background-image: url('images/drinks-bg.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body-desserts{
+    background-image: url('images/desserts-bg.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-logo-image{
+   width: 400px;
+   display: block;
+   margin: auto;
+   padding-top: 35px;
+}
+.menu-home-item{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    color:wheat;
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 60%;  
+}
+
+.menu-home-item-01{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    color:black;
+    border: 3px solid black;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 60%;  
+}
+.menu-home a p{
+    background-color: green;
+    
+}
+
+/*======MEALS PAGE======*/
+.menu-home{
+    padding-top: 50px;
+}
+.meals{
+    padding-top: 300px;
+}
+.meals-01{
+    padding-bottom: 20px;
+}
+/*=========MEALS PAGE MENU=========*/
+.meals-list a{
+    text-decoration: none;
+}
+.meals-list-item{
+    border: 3px solid black;
+    display: block;
+    margin: auto;
+    text-align: center; 
+    width: 60%; 
+    background: rgba(248, 248, 248, 0.5); 
+}
+.meals-list-item i{
+    float: right;
+    padding-right: 10px;
+    padding-top: 3px;
+
+}
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 10px;
+    color: #1a1a1a;
+    text-align: center;
+}
+.meals-list-item p{
+    font-weight: 15px;
+    font-style: italic;
+    padding-left: 10px;
+    margin-top: -7px;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+/*=========RECIPE PAGE=========*/
+.recipe{
+    padding-top: 170px;
+    padding-left: 10px;
+}
+/*=========RECIPE DETAILS=========*/
+.recipe-details h1{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.recipe-details-info p{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: grey;
+}
+.recipe-details-more-info{
+    padding-left: 25px;
+    font-size: 20px;
+}
+.extras-line p{
+    padding-left: 12px;
+    font-weight: 700;
+    
+}
+.checkbox-extras{
+    padding-left: 20px;
+}
+.checkbox-extras-item label{
+    font-size:20px;
+    color: gray;
+}
+.currency{
+    padding-left: 25px;
+}
+.extra-order-description{
+    padding-left: 12px;
+    font-weight: 700;
+}
+
+.text-area{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input, textarea{
+    width: 60%;
+    padding: 10px;
+    outline: 0;
+    color: black;
+    font-size: 15px;
+    border: 3px solid grey;
+}
+label{
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    cursor: text;
+}
+button{
+    width: 10%;
+    font-size: 18px;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: green
+
+}
+button input{
+    width: 40%;
+    font-size: 18px;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: green
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+/*=========FINAL PAGE=========*/
+.final-page{
+    background-color:cadetblue;
+}
+
+
+.final-order-message{
+    display:block;
+    margin: auto;
+    text-align: center;
+    padding-top: 320px;
+}
+.final-order-message h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.check-circle i{
+    color: green;
+    font-size: 40px;
+  
+}
+.back-home-text:hover{
+    transform: scale(1.1);
+}
+.back-home-text a{
+    text-decoration: none;
+    color: rgb(235, 188, 188);
+}
+
+/*=========ARROW HOVER=========*/
+.header-01 i:hover{
+    transform: scale(1.2);
+}
+.header-02 i:hover{
+    transform: scale(1.2);
+}
+.header-03 i:hover{
+    transform: scale(1.2);
+}
+.header-04 i:hover{
+    transform: scale(1.2);
+}
+.meals-list-item i:hover{
+    transform: scale(1.2);
+}
+
+
